@@ -1,0 +1,104 @@
+node_modules/
+
+# Dependencies
+frontend/node_modules/
+backend/node_modules/
+
+
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+backend/.env
+frontend/.env
+
+.env
+.env.*
+!.env.example
+
+backend/public/audio/*
+!backend/public/audio/.gitkeep
+
+logs/
+*.log
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.cache/
+.parcel-cache/
+.eslintcache
+
+tmp/
+temp/
+
+*.pid
+*.seed
+*.pid.lock
+
+# OpenCode local MCP config
+opencode.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Local MCP / Playwright temp files
+.playwright-mcp/
+.tmp-playwright-mcp*
+
+AGENTS.md
+# Playwright CLI output (may contain credentials)
+.playwright-cli/
+
+# Agent skills
+.agents/
+
+
+# Dependencies
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and generated audio
+*.log
+logs/
+*.mp3
+*.wav
+
+# Database and report exports
+*.sql
+*.dump
+*.sqlite
+*.db
+*.csv
+*.xlsx
+
+# Private keys and backups
+*.pem
+*.key
+*.zip
+
+# Testing
+playwright-report/
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
